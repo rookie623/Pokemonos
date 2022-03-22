@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card-green-b {
+    background: linear-gradient(to right, rgb(24, 221, 67), rgb(37, 255, 121));
+}
+
+.card-blue-b {
+    background: linear-gradient(to right, rgb(24, 86, 221), rgb(37, 157, 255));
+}
+
+.card-yellow-b {
+    background: linear-gradient(to right, rgb(221, 165, 24), rgb(255, 222, 37));
+}
+
+.card {
+    background: linear-gradient(to right, rgb(221, 165, 24), rgb(255, 222, 37));
+    height: 443px;
+    width: 345px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(49, 48, 48);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 17px rgb(49, 48, 48);
+} 
+
+.card__thumnail {
+    background: linear-gradient(to right,rgb(102, 70, 28), rgb(199, 141, 64));
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 8px;
+    text-align: center;
+}
+
+.card__stats {
+    background: linear-gradient(to right, rgb(177, 152, 118),rgb(248, 220, 180));
+    min-height: 50%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card__types {
+    background-color: black;
+    height: 35px;
+    width: 80px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.card_type {
+    font-size: small;
+    text-transform: capitalize;
+    position: relative;
+    top: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.card__footer {
+    position: relative;
+    top: 5px;
+    color: rgb(155, 148, 96);
+}
+
+.card__name {
+    text-transform: capitalize;
+}
+
+.card__img {
+    min-height: 50%;
+    width: 60%;
+}
+
+.card__stats-list {
+    font-size: smaller;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
