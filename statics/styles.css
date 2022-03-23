@@ -15,18 +15,6 @@ body {
     align-items: stretch;
 }
 
-.card-green-b {
-    background: linear-gradient(to right, rgb(24, 221, 67), rgb(37, 255, 121));
-}
-
-.card-blue-b {
-    background: linear-gradient(to right, rgb(24, 86, 221), rgb(37, 157, 255));
-}
-
-.card-yellow-b {
-    background: linear-gradient(to right, rgb(221, 165, 24), rgb(255, 222, 37));
-}
-
 .card {
     background: linear-gradient(to right, rgb(221, 165, 24), rgb(255, 222, 37));
     height: 443px;
@@ -40,7 +28,7 @@ body {
     box-shadow: 0px 0px 17px rgb(49, 48, 48);
 } 
 
-.card__thumnail {
+.card__thumbnail {
     background: linear-gradient(to right,rgb(102, 70, 28), rgb(199, 141, 64));
     height: 95%;
     width: 95%;
@@ -55,6 +43,41 @@ body {
     background: linear-gradient(to right, rgb(177, 152, 118),rgb(248, 220, 180));
     min-height: 50%;
     border-radius: 0px 0px 10px 10px;
+}
+/* GREEN GRASS*/
+.card__b--green {
+    background: linear-gradient(to right, rgb(70, 143, 41), rgb(20, 128, 114));
+}
+.card__t--green {
+    background: linear-gradient(to right, rgb(20, 71, 37), rgb(19, 100, 65));
+}
+.card__s--green {
+    background: linear-gradient(to right, rgb(66, 150, 136), rgb(116, 167, 136));
+}
+/* RED FIRE*/
+.card__b--red {
+    background: linear-gradient(to right, rgb(221, 100, 30), rgb(168, 76, 22));
+}
+.card__t--red {
+    background: linear-gradient(to right, rgb(100, 19, 19), rgb(141, 23, 23));
+}
+.card__s--red {
+    background: linear-gradient(to right, rgb(160, 90, 57), rgb(199, 118, 80));
+}
+
+/* BLUE WATER*/
+.card__b--blue {
+    background: linear-gradient(to right, rgb(18, 124, 110), rgb(20, 180, 146));
+}
+.card__t--blue {
+    background: linear-gradient(to right, rgb(8, 87, 87), rgb(11, 121, 121));
+}
+.card__s--blue {
+    background: linear-gradient(to right, rgb(103, 170, 170), rgb(128, 202, 202));
+}
+
+.card-yellow-b {
+    background: linear-gradient(to right, rgb(221, 165, 24), rgb(255, 222, 37));
 }
 
 .card__types {
@@ -79,7 +102,7 @@ body {
 .card__footer {
     position: relative;
     top: 5px;
-    color: rgb(155, 148, 96);
+    color: rgba(207, 207, 207, 0.493);
 }
 
 .card__name {
